@@ -1,0 +1,35 @@
+DLND Project4
+GANs Links
+Here there is a great video about GAN: https://www.youtube.com/watch?v=X1mUN6dD8uE
+I recommend checking the Google Python Style Guide, there are great tips about how to improve coding, in general: https://google.github.io/styleguide/pyguide.html
+GANs for beginners video: https://www.oreilly.com/learning/generative-adversarial-networks-for-beginners
+
+Advanced tips:
+How to Train a GAN: https://github.com/soumith/ganhacks
+How to to select the batch_size vs the number of epochs: https://stats.stackexchange.com/questions/164876/tradeoff-batch-size-vs-number-of-iterations-to-train-a-neural-network
+GAN stability: http://www.araya.org/archives/1183
+MNIST GAN with Keras: https://medium.com/towards-data-science/gan-by-example-using-keras-on-tensorflow-backend-1a6d515a60d0
+DCGAN : https://github.com/yihui-he/GAN-MNIST, https://github.com/carpedm20/DCGAN-tensorflow
+DiscoGAN, Discover Cross-Domain Relations with Generative Adversarial Networks: https://github.com/carpedm20/DiscoGAN-pytorch
+beta1 values: https://arxiv.org/pdf/1511.06434.pdf
+WGANs: https://paper.dropbox.com/doc/Wasserstein-GAN-GvU0p2V9ThzdwY3BbhoP7
+
+Good articles :
+https://blog.openai.com/generative-models/
+https://medium.com/@ageitgey/abusing-generative-adversarial-networks-to-make-8-bit-pixel-art-e45d9b96cee7
+
+Do you want your deep net to sing? Have a look at this paper: http://www.creativeai.net/posts/W2C3baXvf2yJSLbY6/a-neural-parametric-singing-synthesizer
+An app called FaceApp uses a CNN to make you smile in a picture or change genders: http://www.digitaltrends.com/photography/faceapp-neural-net-image-editing/
+
+Here you see examples of Stanfords’ student projects on deep learning: https://cs230.stanford.edu/proj-spring-2018.html
+
+Original Paper on batch normalization: https://arxiv.org/pdf/1502.03167.pdf
+
+Beyond the intuitive reasons, there are good mathematical reasons why it helps the network learn better, too. It helps combat what the authors call internal covariate shift. This discussion is best handled in the paper and in Deep Learning(http://www.deeplearningbook.org) a book you can read online written by Ian Goodfellow, Yoshua Bengio, and Aaron Courville. Specifically, check out the batch normalization section of Chapter 8: Optimization for Training Deep Models (http://www.deeplearningbook.org/contents/optimization.html).
+
+kernel size: https://www.quora.com/How-can-I-decide-the-kernel-size-output-maps-and-layers-of-CNN
+
+Lowering the learning rate would require more epochs (in this project you are asked not to modify nb of epochs), but could ultimately achieve better accuracy.
+beta1: about 0.5 see: https://arxiv.org/pdf/1511.06434.pdf (Student also reported good results with values like 0.2 or 0.3)
+Training and Results
+
